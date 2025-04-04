@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
           {/* Company Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company Name</h3>
+            <h3 className="text-lg font-semibold mb-4">Madcappery Store</h3>
             <p className="text-sm text-gray-400 mb-4">
               Providing exceptional solutions and services since 2020. 
               Committed to excellence in everything we do.
