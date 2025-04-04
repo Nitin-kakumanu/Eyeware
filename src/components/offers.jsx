@@ -98,7 +98,11 @@ function Offers() {
     : offers.filter(offer => offer.type === activeTab);
 
   return (
+<<<<<<< HEAD
     <div className="min-h-screen bg-gray-900 text-white">
+=======
+    <div className="min-h-screen my-24 bg-gray-900 text-white">
+>>>>>>> 6aa2584697c10a055b8113768a9c79aeefdc6867
       <Navbar />
       
       {/* Hero Banner */}
