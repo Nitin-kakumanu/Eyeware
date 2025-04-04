@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
             <p className="text-sm text-gray-400">
               123 Business Avenue<br />
-              Suite 200<br />
+              Road No.3<br />
               Uppal, Near Metro Station
             </p>
           </div>
