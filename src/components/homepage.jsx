@@ -127,7 +127,7 @@ function HomePage() {
   });
 
   return (
-    <div className="min-h-screen my-24 bg-gray-900 text-gray-100 overflow-x-hidden">
+    <div className="min-h-screen bg-gray-900 text-gray-100 overflow-x-hidden">
       {/* Navbar */}
       <Navbar />
 
@@ -136,7 +136,7 @@ function HomePage() {
         initial="hidden"
         animate="visible"
         variants={sectionVariants}
-        className="relative h-screen flex items-center px-4 sm:px-6 lg:px-8"
+        className="relative my-24 h-screen flex items-center px-4 sm:px-6 lg:px-8"
       >
         <div className="absolute inset-0 z-0 bg-gray-800 opacity-90">
           <img

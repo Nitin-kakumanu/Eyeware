@@ -7,11 +7,11 @@ const AboutUs = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen my-24 bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white">
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-700 to-blue-900 py-24">
+      <div className="relative my-24 bg-gradient-to-r from-blue-700 to-blue-900 py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Eyewear Studio</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">

@@ -10,13 +10,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company Name</h3>
             <p className="text-sm text-gray-400 mb-4">
-              Providing exceptional solutions and services since 2010. 
+              Providing exceptional solutions and services since 2020. 
               Committed to excellence in everything we do.
             </p>
             <p className="text-sm text-gray-400">
               123 Business Avenue<br />
               Suite 200<br />
-              San Francisco, CA 94107
+              Uppal, Near Metro Station
             </p>
           </div>
 
@@ -36,9 +36,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Email: info@companyname.com</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>Support: support@companyname.com</li>
+              <li>Email: info@MadcapperyStore.com</li>
+              <li>Phone: (+91) 9922312340</li>
+              <li>Support: support@MadcapperyStore.com</li>
             </ul>
             
             {/* Social Media Links */}
@@ -56,7 +56,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
           <div className="mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Company Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Madcappery Store. All rights reserved.
           </div>
           <div className="flex space-x-6">
             <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>

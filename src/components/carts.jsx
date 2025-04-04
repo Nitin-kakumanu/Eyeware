@@ -32,9 +32,9 @@ export default function Cart() {
   const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
   return (
-    <div className="min-h-screen my-24 bg-gray-900 text-gray-100"> {/* Dark gray background */}
+    <div className="min-h-screen bg-gray-900 text-gray-100"> {/* Dark gray background */}
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
+      <div className="container my-24 mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold mb-6 text-white">Your Cart ({cart.length})</h1>
         
         {cart.length === 0 ? (

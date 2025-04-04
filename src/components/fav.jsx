@@ -33,9 +33,9 @@ export default function Favorites() {
   };
 
   return (
-    <div className="min-h-screen my-24 bg-gray-900 text-gray-100">
+    <div className="min-h-screen bg-gray-900 text-gray-100">
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
+      <div className="container my-24 mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8 text-white">Your Favorites ({favorites.length})</h1>
         
         {favorites.length === 0 ? (

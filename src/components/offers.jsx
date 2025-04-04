@@ -98,11 +98,11 @@ function Offers() {
     : offers.filter(offer => offer.type === activeTab);
 
   return (
-    <div className="min-h-screen my-36 bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white">
       <Navbar />
       
       {/* Hero Banner */}
-      <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 py-16 md:py-24 mb-8">
+      <div className="relative my-24 bg-gradient-to-r from-blue-600 to-blue-800 py-16 md:py-24 mb-8">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Exclusive Eyewear Offers</h1>
           <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">

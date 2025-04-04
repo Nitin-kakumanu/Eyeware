@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 function LoginPage() {
   return (
-    <div className="min-h-screen my-20 bg-gray-800">
+    <div className="min-h-screen bg-gray-800">
       <Navbar />
-      <div className="min-h-screen bg-gray-800 flex items-center justify-center">
+      <div className="min-h-screen my-20 bg-gray-800 flex items-center justify-center">
         <motion.div
           className="max-w-sm w-full bg-gray-900 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, scale: 0.9 }}
